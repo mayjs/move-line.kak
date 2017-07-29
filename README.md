@@ -23,6 +23,6 @@ Commands
 - `move-line-above` `[count]`: select full lines and move line above
 - `move-line-below` `[count]`: select full lines and move line below
 
-[Kakoune]: https://github.com/mawww/kakoune
+[Kakoune]: http://kakoune.org
 [freenode/kakoune]: https://webchat.freenode.net?channels=kakoune
 [shields/kakoune/badge]: https://img.shields.io/badge/IRC-%23kakoune-blue.svg
