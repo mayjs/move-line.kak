@@ -20,8 +20,8 @@ map global normal ) ':move-line-below %val{count}<ret>'
 Commands
 --------
 
-- `move-line-above` `[count]`: select full lines and move line above
-- `move-line-below` `[count]`: select full lines and move line below
+- `move-line-above` `[count]`: Select full lines and move line above
+- `move-line-below` `[count]`: Select full lines and move line below
 
 [Kakoune]: http://kakoune.org
 [freenode/kakoune]: https://webchat.freenode.net?channels=kakoune
