@@ -1,4 +1,4 @@
-[![IRC][shields/kakoune/badge]][freenode/kakoune]
+[![IRC][IRC Badge]][IRC]
 
 [Kakoune][] extension to move lines.
 
@@ -24,5 +24,5 @@ Commands
 - `move-line-below` `[count]`: Select full lines and move line below
 
 [Kakoune]: http://kakoune.org
-[freenode/kakoune]: https://webchat.freenode.net?channels=kakoune
-[shields/kakoune/badge]: https://img.shields.io/badge/IRC-%23kakoune-blue.svg
+[IRC]: https://webchat.freenode.net?channels=kakoune
+[IRC Badge]: https://img.shields.io/badge/IRC-%23kakoune-blue.svg
