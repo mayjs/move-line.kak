@@ -1,6 +1,11 @@
+Move line
+=========
+
 [![IRC][IRC Badge]][IRC]
 
-[Kakoune][] extension to move lines.
+###### [Usage](#usage) | [Documentation](#commands) | [Contributing](CONTRIBUTING)
+
+> [Kakoune][] extension to move lines.
 
 Installation
 ------------
