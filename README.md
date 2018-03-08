@@ -1,5 +1,4 @@
-Move line
-=========
+# Move line
 
 [![IRC][IRC Badge]][IRC]
 
@@ -7,23 +6,20 @@ Move line
 
 > [Kakoune][] extension to move lines.
 
-Installation
-------------
+## Installation
 
 ``` sh
 ln --symbolic $PWD/rc $XDG_CONFIG_HOME/kak/autoload/move-line
 ```
 
-Usage
------
+## Usage
 
 ``` kak
 map global normal ( ':move-line-above %val{count}<ret>'
 map global normal ) ':move-line-below %val{count}<ret>'
 ```
 
-Commands
---------
+## Commands
 
 - `move-line-above` `[count]`: Select full lines and move line above
 - `move-line-below` `[count]`: Select full lines and move line below
