@@ -15,8 +15,8 @@ ln --symbolic $PWD/rc $XDG_CONFIG_HOME/kak/autoload/move-line
 ## Usage
 
 ``` kak
-map global normal ( ':move-line-above %val{count}<ret>'
-map global normal ) ':move-line-below %val{count}<ret>'
+map global normal "'" ':move-line-below %val{count}<ret>'
+map global normal "<a-'>" ':move-line-above %val{count}<ret>'
 ```
 
 ## Commands
