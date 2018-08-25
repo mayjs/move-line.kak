@@ -4,7 +4,7 @@
 
 ###### [Usage](#usage) | [Documentation](#commands) | [Contributing](CONTRIBUTING)
 
-> [Kakoune][] extension to move lines.
+> [Kakoune] extension to move lines.
 
 ## Installation
 
