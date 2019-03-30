@@ -17,8 +17,8 @@ pathogen-infect /home/user/repositories/github.com/alexherbo2/move-line.kak
 ## Usage
 
 ``` kak
-map global normal "'" ':move-line-below %val{count}<ret>'
-map global normal "<a-'>" ':move-line-above %val{count}<ret>'
+map global normal "'" ': move-line-below %val{count}<ret>'
+map global normal "<a-'>" ': move-line-above %val{count}<ret>'
 ```
 
 ## Commands
