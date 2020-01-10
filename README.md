@@ -1,32 +1,20 @@
-# Move line
+# move-line.kak
 
-[![IRC][IRC Badge]][IRC]
-
-###### [Usage](#usage) | [Documentation](#commands) | [Contributing](CONTRIBUTING)
-
-> [Kakoune] extension to move lines.
+[Kakoune] plugin to move lines without `xdp`.
 
 ## Installation
 
-### [Pathogen]
-
-``` kak
-pathogen-infect /home/user/repositories/github.com/alexherbo2/move-line.kak
-```
+Add [`move-line.kak`](rc/move-line.kak) to your autoload or source it manually.
 
 ## Usage
 
+Move selected lines with `move-line-below` and `move-line-above`.
+
+## Configuration
+
 ``` kak
-map global normal "'" ': move-line-below %val{count}<ret>'
-map global normal "<a-'>" ': move-line-above %val{count}<ret>'
+map global normal "'" ': move-line-below<ret>'
+map global normal "<a-'>" ': move-line-above<ret>'
 ```
 
-## Commands
-
-- `move-line-above` `[count]`: Select full lines and move line above
-- `move-line-below` `[count]`: Select full lines and move line below
-
 [Kakoune]: https://kakoune.org
-[IRC]: https://webchat.freenode.net/#kakoune
-[IRC Badge]: https://img.shields.io/badge/IRC-%23kakoune-blue.svg
-[Pathogen]: https://github.com/alexherbo2/pathogen.kak

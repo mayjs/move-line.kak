@@ -1,7 +1,18 @@
-define-command move-line-above -params 0..1 -docstring 'move-line-above [count]: Select full lines and move line above' %{
-  execute-keys -itersel "<a-x>yd%arg{1}k<a-P>"
+provide-module move-line %{
+  define-command move-line-below -docstring 'Move selected lines below' %{
+    execute-keys '<a-x><a-_><a-:>'
+    evaluate-commands -itersel %{
+      execute-keys -draft 'w'
+      execute-keys -draft 'Zj<a-x>dzP'
+    }
+  }
+  define-command move-line-above -docstring 'Move selected lines above' %{
+    execute-keys '<a-x><a-_><a-:>'
+    evaluate-commands -itersel %{
+      execute-keys -draft '<a-;>b'
+      execute-keys -draft '<a-;>Zk<a-x>dzp'
+    }
+  }
 }
 
-define-command move-line-below -params 0..1 -docstring 'move-line-below [count]: Select full lines and move line below' %{
-  execute-keys -itersel "<a-x>yd%arg{1}j<a-P>"
-}
+require-module move-line
